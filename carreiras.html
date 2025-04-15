@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carreira - Casa de Materiais</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffe6f0;
+      color: #4b004b;
+    }
+
+    header {
+      background-color: #ff66b2;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    main {
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #fff0f5;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
+    }
+
+    label {
+      display: block;
+      margin: 15px 0 5px;
+      font-weight: bold;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ff99cc;
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    button {
+      margin-top: 20px;
+      background-color: #ff66b2;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #e0559d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #b30059;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Trabalhe Conosco 💼</h1>
+    <p>Casa Rosa de Materiais de Construção</p>
+  </header>
+
+  <main>
+    <form>
+      <label for="nome">Nome completo:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" required />
+
+      <label for="cargo">Cargo desejado:</label>
+      <select id="cargo" name="cargo">
+        <option value="">Selecione...</option>
+        <option value="vendedor">Vendedor(a)</option>
+        <option value="estoquista">Estoquista</option>
+        <option value="caixa">Caixa</option>
+        <option value="motorista">Motorista</option>
+        <option value="outro">Outro</option>
+      </select>
+
+      <label for="curriculo">Currículo (resumo ou link):</label>
+      <textarea id="curriculo" name="curriculo" rows="5" placeholder="Cole aqui o link ou o resumo do seu currículo..."></textarea>
+
+      <button type="submit">Enviar Candidatura</button>
+    </form>
+  </main>
+
+  <footer>
+    © 2025 Casa Rosa de Materiais de Construção. Todos os direitos reservados.
+  </footer>
+</body>
+</html>

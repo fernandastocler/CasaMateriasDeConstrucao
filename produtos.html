@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casa De Construção De Materiais</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .header {
+      background-color: #fdbaff;
+      color: rgb(255, 255, 255);
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .header .logo {
+      font-size: 40px;
+      font-weight: bold;
+      color: rgb(24, 22, 22);
+      text-transform: uppercase;
+    }
+
+    .nav {
+      background-color: #f596f8;
+      padding: 12px 0;
+      text-align: center;
+    }
+
+    .nav a {
+      color: white;
+      font-size: 16px;
+      margin: 0 20px;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .nav a:hover {
+      text-decoration: underline;
+    }
+
+    .main-content {
+      padding: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .section-title {
+      font-size: 30px;
+      color: #333;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .search-box {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+
+    .search-box input {
+      width: 70%;
+      padding: 15px;
+      font-size: 16px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .search-box button {
+      width: 25%;
+      padding: 15px;
+      background-color: #4220bd;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .search-box button:hover {
+      background-color: #4220bd;
+    }
+
+    .property-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 30px;
+    }
+
+    .property-card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .property-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .property-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .property-card h3 {
+      margin-top: 15px;
+      font-size: 24px;
+      color: #333;
+    }
+
+    .property-card p {
+      font-size: 16px;
+      margin: 10px 0;
+      color: #777;
+    }
+
+    .property-card .price {
+      font-size: 20px;
+      font-weight: bold;
+      color: #e74c3c;
+      margin-top: 10px;
+    }
+
+    .property-card .details {
+      font-size: 16px;
+      margin-top: 15px;
+      color: #555;
+    }
+
+    .section {
+      margin-bottom: 60px;
+      padding: 40px 20px;
+      background-color: #f1f1f1;
+      border-radius: 8px;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .section-title-blue {
+      font-size: 28px;
+      color: #0066cc;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .footer {
+      background-color: #fdbaff;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 50px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo">Rosa Forte - Materiais de Construção</div>
+  </div>
+
+  <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="produtos.html">Produtos</a>
+    <a href="historia.html">Nossa Hístoria</a>
+    <a href="carreiras.html">Carreiras</a>
+    <a href="contato.html">Contato</a>
+  </div>
+
+  <div class="main-content">
+    <div class="search-box">
+      <input type="text" placeholder="Buscar por imóvel, bairro ou cidade...">
+      <button>Buscar</button>
+    </div>
+
+    <!-- Seção de materiais eletricos -->
+    <div class="section">
+      <div class="section-title-blue">Materiais elétricos</div>
+      <div class="property-list">
+        <div class="property-card">
+          <img src="img/distribuicao.webp" alt="Imagem do imóvel">
+          <p class="price">R$ R$ 53,19</p>
+          <div class="details">Quadro de Distribuição Embutir 12/16 Fame</div>
+        </div>
+
+        <div class="property-card">
+          <img src="img/cobrecom.webp" alt="Imagem do imóvel">
+          <p class="price">R$ 277,00</p>
+          <div class="details">Cobrecom Cabo Flexível</div>
+        </div>
+
+        
+        <div class="property-card">
+            <img src="img/interruptor.webp" alt="Imagem do imóvel">
+            <p class="price">R$ 11,90</p>
+            <div class="details">Interruptor Liz 1 Simples + Tomada 10A Tramontina</div>
+          </div>
+
+          
+        <div class="property-card">
+            <img src="img/terminais.webp" alt="Imagem do imóvel">
+            <p class="price">R$ 66,48</p>
+            <div class="details">Terminais elétricos de fios</div>
+          </div>
+
+          
+        <div class="property-card">
+            <img src="img/barramento.webp" alt="Imagem do imóvel">
+            <p class="price">R$ 45,59</p>
+            <div class="details">Barramento Pente Trifásico 12 Polos 120a Brum</div>
+          </div>
+
+          
+        <div class="property-card">
+            <img src="img/tomada industrial.webp" alt="Imagem do imóvel"
+            <p class="price">R$ 28,51</p>
+            <div class="details">Tomada Industrial Sobrepor Vermelha 3P+T 380 16A Soprano
+            </div>
+          </div>
+    </div>
+
+    <!-- Seção de outros Materiais -->
+    <div class="section">
+      <div class="section-title-blue">Outros</div>
+      <div class="property-list">
+        <div class="property-card">
+          <img src="img/tinta acrilica.jfif" alt="Imagem do imóvel">
+          <p class="price">R$ 332,63</p>
+          <div class="details">Tinta Acrílica Semi Brilho Suvinil Porta-do-céu 3,2</div>
+        </div>
+
+        <div class="property-card">
+          <img src="img/Solvente-Aguaraz-Eucatex-5lts-600x600.png" alt="Imagem do imóvel">
+          <p class="price">R$ 119,00</p>
+          <div class="details">Solvente Aguaraz Eucatex 5lts</div>
+        </div>
+        
+        <div class="property-card">
+            <img src="img/esmalte.webp" alt="Imagem do imóvel">
+            <p class="price">R$ 135,00</p>
+            <div class="details">Thinner 9116 Eucatex 5lts</div>
+          </div>
+
+          <div class="property-card">
+            <img src="img/caixa-plastica-1-600x600.webp" alt="Imagem do imóvel">
+            <p class="price">R$ 55,45</p>
+            <div class="details">Caixa plástica para ferramentas preta e amarela CPV 0320 Vonder</div>
+          </div>
+
+          <div class="property-card">
+            <img src="img/Jogo-de-ferramentas-com-36-pecas-1-600x600.webp" alt="Imagem do imóvel">
+            <p class="price">R$ 222,00</p>
+            <div class="details">Jogo de ferramentas com 36 peças com bolsa Vonder</div>
+          </div>
+
+          <div class="property-card">
+            <img src="img/martelo.jpg" alt="Imagem do imóvel">
+            <p class="price">R$ 100,70</p>
+            <div class="details">Martelo de Unha Polido 27 mm</div>
+          </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <p>© 2024 Casa De Materiais | Todos os direitos reservados</p>
+  </div>
+
+</body>
+</html>
